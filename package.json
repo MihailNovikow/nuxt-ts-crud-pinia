@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.10",
+    "@vueuse/core": "^10.1.2",
+    "axios": "^1.4.0",
+    "faker": "^6.6.6",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.36",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "uuid": "^9.0.0",
+    "vue-axios": "^3.5.2",
+    "vue3-rich-accordion": "^0.0.7",
+    "vue3-slide-up-down": "^2.0.1",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  }
+}
